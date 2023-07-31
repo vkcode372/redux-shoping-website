@@ -1,0 +1,42 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    min-height:calc(100vh - 56px);
+    }
+    .color-black{
+        color: #000000;
+        font-weight: 400;
+        text-align: left;
+        text-transform: capitalize;
+    }
+    .cart-shop {
+        margin-top: 15px;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .fa-cart-shopping.cart{
+        margin: 10px;
+
+    }
+    .link-btn{
+        text-decoration: none;
+    background: black;
+    padding: 10px 27px;
+    margin: 10px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: 1px solid black;
+    transition: all 0.3;
+    }
+    .link-btn:hover{
+        background: #ffffff;
+        color: #000000;
+    }
